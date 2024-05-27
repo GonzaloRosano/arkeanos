@@ -1,8 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from '../layouts/Layout.astro';
 export const prerender = false;
 ---
 
 <Layout title="404" description="error 404">
-  <h1>Pagina no encontrada</h1>
+  <section
+    class="flex items-center justify-center align-middle w-[100vw] h-[100vh]"
+  >
+    <h1 class="font-semibold text-5xl">Pagina no encontrada <404></h1>
+  </section>
 </Layout>
